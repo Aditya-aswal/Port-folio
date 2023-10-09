@@ -24,7 +24,13 @@ a{
   max-width: 1200px;
   margin: 0 auto;
 }
-
+.mo a{
+  color: rgb(255, 255, 255);
+}
+.mo:hover a{
+  color: black;
+  transition: .5s ease;
+}
 /* Navbnar Style Start*/
 .navbar {
   display: flex;
